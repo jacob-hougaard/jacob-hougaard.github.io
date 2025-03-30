@@ -1,0 +1,41 @@
+.about-page-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    gap: 6px;
+    margin-top: 1rem;
+}
+@media (min-width: 720px) {
+    .about-page-wrapper{
+        max-width: 70%;
+    }
+    .about-text{
+        & span{
+            margin-top: 12px;
+        }
+    }
+}
+
+
+.about-title{
+    font-size: 32px;
+    align-self: start;
+    font-weight: 600;
+}
+
+.about-sub-title{
+    font-size: 24px;
+    align-self: start;
+    font-weight: 600;
+}
+
+.about-text{
+    font-size: 16px;
+    align-self: start;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    & span {
+        margin-top: 4px;
+    }
+}

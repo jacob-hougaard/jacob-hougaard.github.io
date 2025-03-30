@@ -1,0 +1,20 @@
+.project-wrapper{
+    display: flex;
+    flex-direction: row;
+
+}
+.project-wrapper{
+    & ProjectNavigation {
+        flex-basis: 33%;
+    }
+}
+
+.project-content{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    text-align: start;
+    & img{
+        max-width: 400px;
+    }
+}
