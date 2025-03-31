@@ -24,8 +24,8 @@ const DanishBoksen = () => {
             <div className={'project-content'}>
                 <h1>Danish boksen</h1>
 
-                <span>Company: Seges innovation</span>
-                <span>Role: UX Engineer</span>
+                <span><b>Company</b>: Seges innovation</span>
+                <span><b>Role</b>: UX Engineer</span>
                 <h2>About the project</h2>
                 <span>
                     DanishBoksen is an initiative from the Danish pig sector to avoid paperwork in connection with various certifications of pork.
@@ -37,7 +37,7 @@ const DanishBoksen = () => {
                 </span>
 
                 <h2>Outcomes</h2>
-                <span>Complete the task of creating a easier experience for the Danish farmer, an application was developed where the farmer could upload all relevent documents and then link them to different checklists, which would then be referenced whenever there was a control visit..</span>
+                <span>To complete the task of creating a easier experience for the Danish farmer, an application was developed where the farmer could upload all relevent documents and then link them to different checklists, which would then be referenced whenever there was a control visit.</span>
                 <img src={'/images/seges/Db2.png'}/>
                 <img src={'/images/seges/Db3.png'}/>
                 <span></span>

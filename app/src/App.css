@@ -1,7 +1,25 @@
 .App {
   text-align: center;
+  color: #10403B;
+  display: flex;
+  justify-content: center;
 }
 
+.divider{
+  width: 1px;
+  height: 1rem;
+  background-color: black;
+
+}
+
+.app-wrapper{
+  width: 70%;
+}
+@media (max-width: 720px) {
+  .app-wrapper{
+    width: 100%;
+  }
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

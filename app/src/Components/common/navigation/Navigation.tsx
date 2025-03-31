@@ -8,6 +8,7 @@ const Navigation = () => {
                 <div className={'nav-bar-item'}>
                     <Link to={'/'}>Who am i?</Link>
                 </div>
+                <div className={'divider'}></div>
                 <div className={'nav-bar-item'}>
                     <Link to={'/projects'}>What have i done?</Link>
                 </div>

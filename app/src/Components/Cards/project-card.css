@@ -1,9 +1,14 @@
 .project-card-wrapper{
     /* background: #94B27D;*/
     width: 343px;
-    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
     display: flex;
     flex-direction: column;
+    border: 1px solid #f0f0f0;
+}
+
+a{
+    text-decoration: none;
+    color: #10403B;
 }
 
 .project-card-wrapper:hover{

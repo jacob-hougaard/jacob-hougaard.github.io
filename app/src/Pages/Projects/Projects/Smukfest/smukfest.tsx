@@ -23,8 +23,11 @@ const Smukfest = () => {
                     Along with the stakeholders at Skanderborg festival, a team of developers and project managers, i, along with the team managed to create an application that had the functionalities of the original application.
                     The application was able to be modified and encompass the special needs of Skanderborg festival and its participants
                 </span>
-                <img src={'/images/seges/Db2.png'}/>
-                <img src={'/images/seges/Db3.png'}/>
+                <div className={'project-product-images'}>
+                    <img src={'/images/smukfest/smuk2.png'}/>
+                    <img src={'/images/smukfest/smuk3.png'}/>
+                </div>
+
                 <span></span>
             </div>
         </div>

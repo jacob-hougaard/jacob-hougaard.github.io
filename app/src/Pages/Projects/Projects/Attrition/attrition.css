@@ -3,6 +3,7 @@
     flex-direction: row;
     justify-content: center;
 
+
 }
 .project-wrapper{
     & ProjectNavigation {
@@ -17,8 +18,14 @@
     text-align: start;
     max-width: 90%;
     & img{
-        max-width: 400px;
+        max-height: 600px;
     }
+}
+
+.project-product-images{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
 }
 @media (max-width: 720px) {
     .project-product-images{

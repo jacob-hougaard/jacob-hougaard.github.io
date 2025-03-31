@@ -3,11 +3,13 @@
     flex-wrap: wrap;
     gap: 1rem;
     margin: 1rem;
-    justify-content: center;
+    /* justify-content: center;*/
+    text-decoration: none;
 }
 
 @media (max-width: 720px) {
     .projects-wrapper{
         flex-direction: column;
+        align-content: center;
     }
 }
