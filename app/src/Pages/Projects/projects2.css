@@ -1,11 +1,12 @@
 .project2-list-item{
     display: flex;
-
+    color: #10403B;
+    text-decoration: none;
     height: 3rem;
     font-size: 24px;
+    align-items: center;
     & img{
         margin-left: 1rem;
-        margin-bottom: 1rem;
 
     }
 }
@@ -18,6 +19,15 @@
     }
 }
 
+@media (max-width: 720px) {
+    .project2-list-item{
+        height: 5rem;
+        border-bottom: 1px solid gray;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
 .projects2-wrapper{
     display: flex;
     flex-direction: column;
@@ -25,6 +35,9 @@
     align-content: start;
     text-align: start;
     margin: 1rem;
+    & a{
+        text-decoration: none;
+    }
 }
 
 .projects2-description{
