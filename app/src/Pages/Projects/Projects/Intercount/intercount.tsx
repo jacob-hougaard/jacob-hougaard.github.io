@@ -1,5 +1,5 @@
 import React from 'react';
-import './intercount.css'
+import '../projects-main.css'
 
 const Intercount = () => {
     return (
@@ -10,6 +10,7 @@ const Intercount = () => {
                 <span><b>Company:</b> Seges innovation</span>
                 <span><b>Role</b>: UX Engineer</span>
                 <h2>About the project</h2>
+                <div className={'about-project-wrapper'}>
                 <span>
                     Intercount is a enterprice resource planning system, made specifically for danish businesses to keep track of their economics.
                     The system is built on top of an older system, designed for the danish agriculture sector, but has now been revamped to accommodate all types of businesses.
@@ -24,6 +25,7 @@ const Intercount = () => {
                     <img src={'/images/seges/IC2.png'}/>
                 </span>
                 <span></span>
+                </div>
             </div>
         </div>
     );

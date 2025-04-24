@@ -1,4 +1,5 @@
 import React from 'react';
+import '../projects-main.css'
 
 const Smukfest = () => {
     return (
@@ -9,6 +10,7 @@ const Smukfest = () => {
                 <span><b>Company:</b> Skanderborg Festival</span>
                 <span><b>Role:</b> Product designer</span>
                 <h2>About the project</h2>
+                <div className={'about-project-wrapper'}>
                 <span>
                     Every year, over 60,000 people gather in Skanderborg to celebrate Smukfest.
                     With so many participants, it is important to have an app that shows what you can do at the festival, when the next band is playing, facilities and what you can drink and eat.
@@ -21,8 +23,9 @@ const Smukfest = () => {
                 <h2>Outcomes</h2>
                 <span>
                     Along with the stakeholders at Skanderborg festival, a team of developers and project managers, i, along with the team managed to create an application that had the functionalities of the original application.
-                    The application was able to be modified and encompass the special needs of Skanderborg festival and its participants
+                    The application was able to be modified and encompass the special needs of Skanderborg festival and its participants.
                 </span>
+                </div>
                 <div className={'project-product-images'}>
                     <img src={'/images/smukfest/smuk2.png'}/>
                     <img src={'/images/smukfest/smuk3.png'}/>

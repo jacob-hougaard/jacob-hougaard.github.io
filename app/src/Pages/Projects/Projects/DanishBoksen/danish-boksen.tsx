@@ -2,7 +2,7 @@ import React from 'react';
 import ProjectNavigation, {
     ProjectListItem
 } from "../../../../Components/common/navigation/project-navigation/ProjectNavigation";
-import './danishboksen.css'
+import '../projects-main.css'
 const dbProjectList: ProjectListItem[] = [
     {
         url: '',
@@ -27,6 +27,7 @@ const DanishBoksen = () => {
                 <span><b>Company</b>: Seges innovation</span>
                 <span><b>Role</b>: UX Engineer</span>
                 <h2>About the project</h2>
+                <div className={'about-project-wrapper'}>
                 <span>
                     DanishBoksen is an initiative from the Danish pig sector to avoid paperwork in connection with various certifications of pork.
                     The name Danish Box comes from the Danish Pig Standard, which is a certification that ensures that pork meets Danish legislation and industry standards.
@@ -41,6 +42,7 @@ const DanishBoksen = () => {
                 <img src={'/images/seges/Db2.png'}/>
                 <img src={'/images/seges/Db3.png'}/>
                 <span></span>
+                </div>
             </div>
         </div>
     );

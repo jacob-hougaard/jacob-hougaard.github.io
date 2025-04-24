@@ -74,7 +74,7 @@
 }
 
 .button-primary{
-    background-color: #103C38;
+    background-color: #10403B;;
     color: #FFF;
     padding: 12px 24px;
     border: none;
@@ -91,5 +91,6 @@
 
 .button-primary:hover{
    background-color:  #F3F2EE;
-    color: #103C38;
+    color: #10403B;;
+
 }

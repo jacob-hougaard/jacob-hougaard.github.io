@@ -1,5 +1,5 @@
 import React from 'react';
-import './attrition.css'
+import '../projects-main.css'
 const Attrition = () => {
     return (
         <div className={'project-wrapper'}>
@@ -9,6 +9,7 @@ const Attrition = () => {
                 <span><b>Company:</b> Does not want to be mentioned</span>
                 <span><b>Role</b>: Product designer</span>
                 <h2>About the project</h2>
+                <div className={'about-project-wrapper'}>
                 <span>
                     Something that every company experiences is employee turnover. High attrition can be expensive and lead to lower team morale and trying to address these issues can be both expensive and take a lot of time.
                 </span>
@@ -23,6 +24,7 @@ const Attrition = () => {
                     <img src={'/images/other/IBM/Attrition.png'}/>
                 </span>
                 <span></span>
+                </div>
             </div>
         </div>
     );

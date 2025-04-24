@@ -1,5 +1,5 @@
 import React from 'react';
-import './mna.css'
+import '../projects-main.css'
 const Mna = () => {
     return (
         <div className={'project-wrapper'}>
@@ -9,6 +9,7 @@ const Mna = () => {
                 <span><b>Company:</b> Does not want to be mentioned</span>
                 <span><b>Role:</b> Frontend Developer</span>
                 <h2>About the project</h2>
+                <div className={'about-project-wrapper'}>
                 <span>
                     When working with merger and acquisition, there are a lot of documents that has to be read by a lot of people. This introduces human error, but also the risk that some documents might be read multiple times by different people.
                 </span>
@@ -26,6 +27,7 @@ const Mna = () => {
                     <img src={'/images/other/IBM/M&A2.png'}/>
                 </div>
                 <span></span>
+                </div>
             </div>
         </div>
     );
