@@ -5,7 +5,7 @@ const About = () => {
     return (
         <div className={'about-page-wrapper'}>
             <span className={'about-title'}>Jacob Hougaard Bennedsen</span>
-            <span className={'about-sub-title'}>Building delightful digital experiences from idea to interfaces</span>
+            <span className={'about-sub-title'}>Building digital experiences from idea to interfaces</span>
             <div className={'about-content-wrapper'}>
                 <div className={'about-image-wrapper'}>
                     <img src={'2024_0409_16580800~2(1).jpg'} style={{maxWidth: "100%"}}/>
