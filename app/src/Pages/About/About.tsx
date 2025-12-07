@@ -16,7 +16,7 @@ const About = () => {
                 <div className={'about-main-text'}>
                     <span>A product designer and developer who makes a living by turning ideas into interactive designs, and then turn those into interactive, usable and intuitive interfaces.</span>
                     <span>With a strong foundation in front-end development, UX/UI design and prototyping, I am able to bridge the gap between functionality and aesthetics.</span>
-                    <span>I belive that every experience can be fun and engaging if it is designed correctly, and even the most trivial task can be made meningful to the user.</span>
+                    <span>I believe that every experience can be fun and engaging if it is designed correctly, and even the most trivial task can be made meningful to the user.</span>
                     <Link to={'/projects'}>
                         <div className={'button-primary'}>See my work</div>
                     </Link>
